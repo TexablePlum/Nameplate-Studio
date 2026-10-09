@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/src/">
+    <Project Path="src/NameplateStudio.App/NameplateStudio.App.csproj" />
+    <Project Path="src/NameplateStudio.Domain/NameplateStudio.Domain.csproj" />
+    <Project Path="src/NameplateStudio.Engine/NameplateStudio.Engine.csproj" />
+    <Project Path="src/NameplateStudio.Infrastructure/NameplateStudio.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/NameplateStudio.Tests/NameplateStudio.Tests.csproj" />
+  </Folder>
+</Solution>

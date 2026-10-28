@@ -15,5 +15,9 @@
         public static readonly Error FieldRequired = new Error("FieldRequired", ErrorType.Validation, "The field is required and can't be null.");
         public static readonly Error FieldAlreadyExists = new Error("FieldAlreadyExists", ErrorType.Validation, "A field with the same ID already exists.");
         public static readonly Error FieldNotFound = new Error("FieldNotFound", ErrorType.NotFound, "The specified field was not found.");
+
+        public static readonly Error FieldElementRequired = new("FieldElement.Required", ErrorType.Validation, "The field element is required.");
+        public static readonly Error FieldElementAlreadyExists = new("FieldElement.AlreadyExists", ErrorType.Validation, "A field element with the same ID already exists.");
+        public static readonly Error FieldElementNotFound = new("FieldElement.NotFound", ErrorType.NotFound, "The specified field element was not found.");
     }
 }

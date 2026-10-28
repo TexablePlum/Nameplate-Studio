@@ -7,4 +7,6 @@ namespace NameplateStudio.Domain
     public abstract record FieldElement(FieldElementId Id);
 
     public sealed record TextFieldElement(FieldElementId Id, string Text) : FieldElement(Id);
+
+    public sealed record VectorFieldElement(FieldElementId Id, SvgContent Content) : FieldElement(Id);
 }
